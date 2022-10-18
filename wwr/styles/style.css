@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -12,11 +13,18 @@
     text-align: center;
 }
 
+.home-title {
+    font-size: 2em;
+    font-family: 'Montserrat', serif, sans-serif;
+    margin-top: 10px;
+}
+
 nav a {
     background-color: #FDCA40;
     text-align: center;
     color: #2176FF;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover,
@@ -30,6 +38,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #2176FF;
@@ -37,6 +49,18 @@ main section {
 
 body {
     background-color: #FDCA40;
+    font-family: 'Nunito', 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -46,19 +70,26 @@ header {
 
 .msg {
     background-color: #2176FF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Montserrat';
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #31393C;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -79,6 +110,10 @@ footer p a:hover {
 
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 h4 {
     color: #31393C;
 }
@@ -87,6 +122,10 @@ h4 {
 .join {
     color: #2176FF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -99,6 +138,18 @@ h4 {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #31393C;
 }
